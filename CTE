@@ -2,11 +2,11 @@
 
 WITH top_5_customers_cte (customer_id, firstname, last_name, city, country) AS
   (SELECT A.customer_id,
-         B.first_name,
-         B.last_name,
-         D.city,
-         E.country,
-         SUM(amount) AS total_amount_paid
+          B.first_name,
+          B.last_name,
+          D.city,
+          E.country,
+          SUM(amount) AS total_amount_paid
   FROM payment A
   INNER JOIN customer B ON A.customer_id = B.customer_id
   INNER JOIN address C ON B.address_id = C.address_id
