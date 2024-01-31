@@ -12,4 +12,4 @@ Rockbuster Stealth LLC is a movie rental company that used to have stores around
 The data for this project was created and provided by Career Foundry in the project brief. The data was analyszed using PostgreSQL and a relational database management system. The data set came with information on payment, rental information, actors, addressess, categories, cities, countries, customers, film, film actors, film categories, stores, languages, staff, and inventory.
 
 ## Visualizations
-Visualizations were made in Tableau, the link to those visualizations is here: [Rockbuster Visuals]([url](https://public.tableau.com/authoring/3_10againagain/Dashboard1#1)https://public.tableau.com/authoring/3_10againagain/Dashboard1#1).
+Visualizations were made in Tableau, the link to those visualizations is here: [Rockbuster Visuals](https://public.tableau.com/authoring/3_10againagain/Dashboard1#1).
