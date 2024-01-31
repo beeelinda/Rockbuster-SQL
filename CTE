@@ -1,4 +1,4 @@
-# Here I found the top 5 Rockbuster cutomers that are in each country using a CTE
+# Here I found out how many of the top 5 customers are based within each country using a CTE
 
 WITH top_5customers_CTE (customer_id, firstname, last_name, city, country) AS
   (SELECT A.customer_id,
